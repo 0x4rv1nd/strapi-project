@@ -33,7 +33,7 @@ resource "aws_security_group" "strapi_sg" {
 
 # EC2 instance
 resource "aws_instance" "strapi_server" {
-  ami           = "ami-06a0b4e3b7eb7a300"  # Ubuntu 22.04 LTS, free-tier
+  ami           = "ami-0f5ee92e2d63afc18"  # Ubuntu 22.04 LTS, free-tier
   instance_type = "t3.micro"               # FREE-TIER
   key_name      = "strapi-key"             # Your SSH key in AWS
 
